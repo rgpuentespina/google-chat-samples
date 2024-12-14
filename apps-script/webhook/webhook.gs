@@ -17,7 +17,7 @@
 
 // [START hangouts_chat_webhook]
 function webhook() {
-  const url = "https://chat.googleapis.com/v1/spaces/SPACE_ID/messages"
+  const url = "https://chat.googleapis.com/v1/spaces/AAAA4qI5jec/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=LLJNpxGVjsGw9TuftpSlYq6goR7uEDcZsoh28uw00vI"
   const options = {
     "method": "post",
     "headers": {"Content-Type": "application/json; charset=UTF-8"},
